@@ -2,6 +2,6 @@ services:
   - type: web
     name: time-series-dashboard
     env: python
-    runtime: python310
+    plan: free
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn app:server --config gunicorn_config.py"
