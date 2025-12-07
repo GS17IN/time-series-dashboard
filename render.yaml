@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: time-series-dashboard
+    runtime: python-3.11
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server
+    plan: free
