@@ -2,17 +2,15 @@ dash==2.17.1
 dash-bootstrap-components==1.5.0
 plotly==5.22.0
 
-pandas==2.1.4
+pandas==2.2.2
 numpy==1.26.4
-scipy==1.11.4
+scipy==1.12.0
 
 statsmodels==0.14.2
 pmdarima==2.0.4
 
 wfdb==4.1.2
+scikit-learn==1.5.0
 
-scikit-learn==1.4.2
-
-tensorflow==2.15.0
-
+tensorflow-cpu==2.15.0
 gunicorn==21.2.0
