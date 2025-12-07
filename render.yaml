@@ -2,7 +2,6 @@ services:
   - type: web
     name: time-series-dashboard
     env: python
-    runtime: python3.10
+    pythonVersion: 3.10
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:server --config=gunicorn_config.py
-
