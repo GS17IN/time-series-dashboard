@@ -1,0 +1,23 @@
+#model-radio input[type="radio"] {
+  display: none;
+}
+
+#model-radio label {
+  background: #e7e7e7;
+  padding: 8px 16px;
+  margin: 5px;
+  border: 2px solid #999;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#model-radio label:hover {
+  background: #ddd;
+}
+
+#model-radio input[type="radio"]:checked + label {
+  background: #0078ff;
+  color: white;
+  border-color: #005fcc;
+}
