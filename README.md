@@ -1,11 +1,17 @@
-Time Series Forecast Dashboard
+📊 Time-Series Forecasting Dashboard
+ARIMA • SARIMAX • LSTM | Cross-Domain Comparative Analysis
 
-A fully interactive Dash-based web application for forecasting and analyzing multiple time-series datasets.
-The system supports statistical and deep learning forecasting techniques and provides EDA, stationarity checks, model comparisons, and sector-wise analysis.
+This project presents an end-to-end time-series forecasting system that compares three major forecasting models — ARIMA, SARIMAX, and LSTM — across multiple heterogeneous real-world datasets, including:
 
-The authors
-    1. Namitha K Ram
-    2. Geethika S
+🌡 Daily Temperature Data
+
+🚗 Hourly Traffic Flow Data
+
+💹 Stock Market Closing Prices
+
+❤️ ECG RR-Interval Physiological Signals
+
+The dashboard is deployed as an interactive web app (Dash + Plotly), allowing real-time visualization, forecasting, and comparison of all models.
 
 Installation & Running Locally
 
