@@ -4,9 +4,6 @@
  Supports: Temperature | Traffic | ECG RR Intervals | Stock Sectors
  Models: ARIMA | SARIMAX | LSTM
  Dash App with interactive dataset selection, forecast, and EDA mode.
-
- Created by: Geethika S (BL.SC.P2DSC25012) & Namitha K Ram (BL.SC.P2DSC25021)
- Subject : Data Visualization
 ================================================================================
 """
 
